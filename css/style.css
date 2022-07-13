@@ -742,13 +742,21 @@ body {
   box-shadow: -5px 5px 10px #000;
 }
 
-.about--banner .profile li {
-  margin-bottom: 20px;
+.about--banner .profile>li {
+  margin-bottom: 50px;
 }
+
+.about--banner .profile .mbti li p {
+  font-size: 17px;
+}
+
+/* .about--banner .profile li:last-of-type {
+  margin-bottom: 150px;
+} */
 
 .about--banner .profile li h3 {
   font-family: granjon;
-  font-size: 25px;
+  font-size: 35px;
   position: relative;
   margin-bottom: 5px;
   background: url(../images/gold-texture.jpg) no-repeat center;
@@ -771,7 +779,7 @@ body {
 
 .about--banner .profile li p {
   font-family: "NapjakBlock";
-  font-size: 17px;
+  font-size: 22px;
   font-weight: normal;
   color: #bd9e43;
 }
