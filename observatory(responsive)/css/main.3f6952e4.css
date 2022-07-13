@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+.text-content {
+    font-family: Roboto Mono, Helvetica, Arial, sans-serif;
+    /*    font-family: 'Gugi', cursive;*/
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 15%;
+    width: 27%;
+    text-shadow: 5px 5px 5px #000;
+}
+
+.text-content > h1 {
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 40px;
+    font-weight: 1;
+    letter-spacing: 5px;
+}
+
+.text-content > h1 span {
+    font-size: 30px;
+}
+
+#headerWrap > h2 {
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 50px;
+    font-weight: ;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    text-shadow: 5px 5px 5px #000;
+}
+
+@media(max-width:1260px) {
+    .text-content {
+        top: 72%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+    }
+
+    .text-content > h1 {
+        line-height: 1;
+    }
+
+    .text-content > h1 span {
+        font-size: 20px;
+    }
+
+    #headerWrap > h2 {
+        display: none;
+    }
+
+}
+
+@media(max-width:576px) {
+    .text-content {
+        top: 30%;
+        transform: translateY(-50%);
+        left: 10%;
+        width: 80%;
+    }
+
+    .text-content > h1 {
+        line-height: 0.7;
+        letter-spacing: 5px;
+    }
+
+    .text-content > h1 span {
+        font-size: 17px;
+    }
+
+    #headerWrap > h2 {
+        display: block;
+        font-size: 30px;
+        top: 33%;
+        left: 10%;
+    }
+
+}
