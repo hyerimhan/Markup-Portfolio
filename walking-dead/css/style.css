@@ -949,7 +949,7 @@ header>.searchButton>i {
 #con_inner {
   background: #171201;
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 0;
   right: 0;
   z-index: 20;
