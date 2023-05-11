@@ -15,7 +15,7 @@
 ### [워킹데드 리디자인 사이트 (DEMO)](https://hyerim-markup-porfolio.netlify.app/walking-dead/index.html)
   - Blooming 포트폴리오 내에 포함된 프로젝트 입니다.
   - 풀 스크린
-  - Parrallex를 활용한 화려한 이펙트
+  - Parrallex를 활용한 화려한 스크롤 이펙트
   - 각 섹션 스크롤에 반응
   - [AMC 워킹데드 사이트 바로가기](https://www.amc.com/shows/the-walking-dead--1002293)
   
