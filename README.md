@@ -17,7 +17,7 @@
   - 풀 스크린
   - Parrallex를 활용한 화려한 스크롤 이펙트
   - 각 섹션 스크롤에 반응
-  - [AMC 워킹데드 사이트 바로가기](https://www.amc.com/shows/the-walking-dead--1002293)
+  - [AMC 워킹데드 AMC 홈페이지 바로가기](https://www.amc.com/shows/the-walking-dead--1002293)
   
 ![walkingDead](https://user-images.githubusercontent.com/64674174/235289481-38e7c8b0-9eac-4c81-ab46-427abeadfcf4.gif)
 
