@@ -21,7 +21,7 @@
   
 ![walkingDead](https://user-images.githubusercontent.com/64674174/235289481-38e7c8b0-9eac-4c81-ab46-427abeadfcf4.gif)
 
-### [대전시민천문대 리디자인 사이트 (DEMO)](https://hyerim-markup-porfolio.netlify.app/observatory(responsive)/index.html).
+### [대전시민천문대 리디자인 사이트 (DEMO)](https://hyerim-markup-porfolio.netlify.app/observatory(responsive)/index.html)
   - Blooming 포트폴리오 내에 포함된 프로젝트 입니다.
   - 반응형
   - 로고디자인
