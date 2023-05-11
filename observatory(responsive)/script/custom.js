@@ -318,11 +318,19 @@ $(document).ready(function () {
   /*----------------contents>map-------------------*/
 
   function initialize() {
+    var contentString = `
+      <div>
+        <h3 style="margin-bottom:10px;">대전시민천문대</h3>
+        <p style="line-height:20px;">(34128) 대전광역시 유성구 과학로 213-48 (신성동 7-13)</p>
+        <p style="line-height:20px;">TEL. 042-863-8762, 8763</p>
+        <p style="line-height:20px;">FAX. 042-863-8761</p>
+      </div>
+    `
     var myLatlng = new google.maps.LatLng(36.381828, 127.354002);
     var myOptions = {
       zoom: 15,
       center: myLatlng,
-      mapTypeId: google.maps.MapTypeId.TERRAIN,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
     };
     var map = new google.maps.Map(
       document.getElementById("map_canvas"),
@@ -334,11 +342,15 @@ $(document).ready(function () {
       title: "대전시민천문대",
     });
     var infowindow = new google.maps.InfoWindow({
-      content: "대전시민천문대",
+      content: contentString,
     });
-    infowindow.open(map, marker);
+    // infowindow.open(map, marker);
+    google.maps.event.addListener(marker, 'click', function () {
+      infowindow.open(map, marker);
+    });
   }
   window.onload = function () {
     initialize();
   };
+
 });
