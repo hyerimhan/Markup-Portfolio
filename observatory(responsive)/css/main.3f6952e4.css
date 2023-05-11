@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700);
+@import url("https://fonts.googleapis.com/css?family=Roboto:900|Roboto+Mono:300,400,700");
 @import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
 
 .text-content {
@@ -28,7 +28,6 @@
     line-height: 2;
     color: rgba(255, 255, 255, 0.9);
     font-size: 50px;
-    font-weight: ;
     letter-spacing: 5px;
     position: absolute;
     top: 65%;
